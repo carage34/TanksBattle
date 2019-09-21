@@ -1,0 +1,55 @@
+**********     **     ****     ** **   **         *******   ********       *******   **     ** ********** **    **
+/////**///     ****   /**/**   /**/**  **         **/////** /**/////       /**////** /**    /**/////**/// //**  **
+    /**       **//**  /**//**  /**/** **         **     //**/**            /**    /**/**    /**    /**     //****
+    /**      **  //** /** //** /**/****         /**      /**/*******       /**    /**/**    /**    /**      //**
+    /**     **********/**  //**/**/**/**        /**      /**/**////        /**    /**/**    /**    /**       /**
+    /**    /**//////**/**   //****/**//**       //**     ** /**            /**    ** /**    /**    /**       /**
+    /**    /**     /**/**    //***/** //**       //*******  /**            /*******  //*******     /**       /**
+    //     //      // //      /// //   //         ///////   //             ///////    ///////      //        //
+
+
+
+
+
+                                ****************************************
+                                *                                      *
+                                *   ►    PLAY AGAINST COMPUTER         *
+                                *                                      *
+                                ****************************************
+
+                                ****************************************
+                                *                                      *
+                                *         PLAY 1VS1 OFFLINE            *
+                                *                                      *
+                                ****************************************
+
+                                ****************************************
+                                *                                      *
+                                *          PLAY 1VS1 ONLINE            *
+                                *                                      *
+                                ****************************************
+
+                ██████╗ ██████╗ ███╗   ███╗███╗   ███╗ █████╗ ███╗   ██╗██████╗ ███████╗
+                ██╔════╝██╔═══██╗████╗ ████║████╗ ████║██╔══██╗████╗  ██║██╔══██╗██╔════╝
+                ██║     ██║   ██║██╔████╔██║██╔████╔██║███████║██╔██╗ ██║██║  ██║███████╗
+                ██║     ██║   ██║██║╚██╔╝██║██║╚██╔╝██║██╔══██║██║╚██╗██║██║  ██║╚════██║
+                ╚██████╗╚██████╔╝██║ ╚═╝ ██║██║ ╚═╝ ██║██║  ██║██║ ╚████║██████╔╝███████║
+                 ╚═════╝ ╚═════╝ ╚═╝     ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═════╝ ╚══════╝
+
+                                           aaaaaaaaaaaaaaaaa                    Touche joueur 1
+                                           aaaaaaaaaaaaaaaaa                     -Déplacement : Flèches clavier
+                                           aaaaaaa  aaaaaaaa                     -Tirer       : Barre espace
+                                           aaaaaa    aaaaaaa                    Touche joueur 2
+                                           aaaaa      aaaaaa                     -Déplacement : Touche > t (Haut) g (Bas) f (Gauche) h (Droite)
+                                           aaaa        aaaaa                     -Tirer       : Touche > j
+                                           aaaaaaa  aaaaaaaa
+                                           aaaaaaa  aaaaaaaa
+                        aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+                        aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+                        aaaaaaaaaaaa  aaaaaaaaaaaa  aaaaaaaaaaaaa   aaaaaaaaa
+                        aaaaaaaaa     aaaaaaaaaaaa  aaaaaaaaaaaaa     aaaaaaa
+                        aaaa              aaaaa        aaaaa            aaaaa
+                        aaaaaaaaa     aaaaaaaaaa      aaaaaaaaaaa     aaaaaaa
+                        aaaaaaaaaaaa  aaaaaaaaaaa    aaaaaaaaaaaa   aaaaaaaaa
+                        aaaaaaaaaaaaaaaaaaaaaaaaaa  aaaaaaaaaaaaaaaaaaaaaaaaa
+                        aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa

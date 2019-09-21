@@ -1,0 +1,2 @@
+posx_grille = (LARGEUR_ECRAN/2) - (taille_grille/2);
+posy_grille = (HAUTEUR_ECRAN/2) - (taille_grille/2);
