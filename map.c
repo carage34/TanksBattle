@@ -9,7 +9,6 @@
 #include "menu.h"
 #include "jeu.h"
 #include "tank.h"
-#include <curses.h>
 
 void print_map(int** tab, int l, int c){
   int i=0, j=0,k, carac, fd;
@@ -20,14 +19,14 @@ void print_map(int** tab, int l, int c){
     if(k<1) break;
     //if(k==EOF) break;
     tab[i][j] = carac;
-    //printf("%c", k);
+    printf("%c", carac);
     j++;
     if(carac=='\n') {
       i++;
       j=0;
     }
   }
-  for(i=1;i<HAUTEUR_MAP;i++) {
+  /*for(i=1;i<HAUTEUR_MAP;i++) {
     for(j=1;j<LARGEUR_MAP;j++) {
       if(tab[i][j]=='A') {
         printf("\033[1;31m");
@@ -48,7 +47,7 @@ void print_map(int** tab, int l, int c){
         printf("%c", tab[i][j]);
       }
     }
-  }
+  }*/
 }
 
 int checkdirection(int** map , int row, int col, tank tank, int direction) {

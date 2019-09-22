@@ -19,6 +19,8 @@
 #include "menu.h"
 #include "jeu.h"
 int proc=0;
+char* server_adress;
+int port;
 char key_pressed() {
 	struct termios oldterm, newterm;
 	int oldfd; char c, result = 0;
@@ -67,7 +69,9 @@ int print_menu(char* filename) {
 }
 
 
-void menu(int offset, int pid) {
+void menu(int offset, int pid, char* serveradress, char* portt) {
+	server_adress = serveradress;
+	port = atoi(portt);
 	if(proc==0) {
 		proc = pid;
 	}
