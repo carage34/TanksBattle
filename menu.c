@@ -20,7 +20,7 @@
 #include "jeu.h"
 int proc=0;
 char* server_adress;
-int port;
+char* port;
 char key_pressed() {
 	struct termios oldterm, newterm;
 	int oldfd; char c, result = 0;
@@ -71,7 +71,7 @@ int print_menu(char* filename) {
 
 void menu(int offset, int pid, char* serveradress, char* portt) {
 	server_adress = serveradress;
-	port = atoi(portt);
+	port = portt;
 	if(proc==0) {
 		proc = pid;
 	}
@@ -176,8 +176,8 @@ setsockopt(tcp_socket_descriptor, SOL_SOCKET, SO_REUSEADDR, &yes, sizeof(int));
 
 memset(&tcp_socket_address, 0, sockaddr_in_size);
 tcp_socket_address.sin_family = AF_INET;
-tcp_socket_address.sin_port = htons((short)strtol("5555",NULL,0));
-tcp_socket_address.sin_addr.s_addr = inet_addr("127.0.0.1");
+tcp_socket_address.sin_port = htons((short)strtol(port,NULL,0));
+tcp_socket_address.sin_addr.s_addr = inet_addr(server_adress);
 
 if (connect(tcp_socket_descriptor, (struct sockaddr*)&tcp_socket_address, sockaddr_in_size) != 0)
 {
